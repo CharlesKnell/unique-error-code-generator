@@ -24,7 +24,7 @@ body::before {
 }
 
 div#intro {
-    width: 500px;
+    width: 60%;
     text-align: center;
     margin: auto;
     
@@ -37,7 +37,11 @@ div#intro {
 }
 
 #benefits h2 {
-    text-align: center;;
+    text-align: center;
+    font-size: 32px;
+    margin: auto;
+    width: 60%;
+    padding-bottom: 20px;
 }
 
 #benefits {
@@ -60,6 +64,10 @@ div#benefititems h3 {
 
 div#benefititems h2 {
     text-align: center;
+    width:100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 a {
