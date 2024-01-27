@@ -72,6 +72,15 @@ a:hover {
 
 #submit {
     font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+#submit:hover {
+    background-color:#132b7a;
+    color:white;
+    cursor: pointer;
 }
 
 #errorCode {
