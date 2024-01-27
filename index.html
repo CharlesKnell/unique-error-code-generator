@@ -14,8 +14,8 @@
     <main id="generator">
       <h1>Unique Error Code Generator</h1>
       <div id="intro">
-        <h2>The unique error code generated below is formed by condensing the time 
-        in milliseconds and a random number into a base 36 number.</h2>
+        <h2>The unique error code generated below is formed by concatenating the base 36 datetime 
+        in milliseconds with a base 36 random number.</h2>
       </div>        
       <input id='submit' type="submit" value="Generate Unique Error Code">   
       <h2 id="errorCode">XXXXXXXXX</h2>
@@ -24,10 +24,11 @@
       <h2>The Benefits of using these unique error codes in your software. </h2>
       <div id="benefititems">
         <h3>Uniqueness</h3>
-        <p>Exceptionally low chance of a code ever being duplicated in your codebase. See the 
-           code used to generate this web page 
-           <a href="https://github.com/CharlesKnell/unique-error-code-generator">here</a>. 
-           The algorithm used is located in the codeGenerator.js file.</p>
+        <p>Exceptionally tiny chance of any of these codes being duplicated in your codebase. 
+           The algorithm, codeGenerator.js, can be viewed 
+           <a href="https://github.com/CharlesKnell/unique-error-code-generator">here on github</a>. 
+           There is no need to store these in a database to avoid reusing an error code.
+        </p>
         <h3>Identification of the Point of Origin</h3>
         <p>
            Unique error codes help developers quickly locate a specific issue which occurred in 
