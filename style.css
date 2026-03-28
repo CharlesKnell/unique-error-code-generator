@@ -23,6 +23,10 @@ body::before {
  
 }
 
+hr {
+	width: 100%
+}
+
 div#intro {
     width: 60%;
     text-align: center;
@@ -63,11 +67,15 @@ div#benefititems h3 {
 }
 
 div#benefititems h2 {
-    text-align: center;
+    text-align: left;
     width:100%;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div#benefititems h2.prosandcons {
+    text-align: left;
 }
 
 a {
